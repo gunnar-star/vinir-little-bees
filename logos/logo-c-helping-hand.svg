@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <pattern id="honeycombC" patternUnits="userSpaceOnUse" width="20" height="17.32" patternTransform="scale(1.8)">
+      <polygon points="10,0 20,5 20,12.32 10,17.32 0,12.32 0,5" fill="none" stroke="#1a6b6a" stroke-width="0.25" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="#fafaf7"/>
+  <circle cx="200" cy="200" r="190" fill="url(#honeycombC)"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#1a6b6a" stroke-width="3"/>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#d4a843" stroke-width="1" opacity="0.4"/>
+  <path d="M 140 230 Q 140 270 170 280 Q 200 290 230 280 Q 260 270 260 230" fill="none" stroke="#1a6b6a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 135 235 Q 130 225 135 218" fill="none" stroke="#1a6b6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 265 235 Q 270 225 265 218" fill="none" stroke="#1a6b6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 195 C 192 182 172 182 172 198 C 172 214 200 230 200 230 C 200 230 228 214 228 198 C 228 182 208 182 200 195 Z" fill="#d4a843" opacity="0.8"/>
+  <path d="M 190 210 L 200 203 L 210 210" fill="none" stroke="#fafaf7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="200" y1="203" x2="200" y2="215" stroke="#fafaf7" stroke-width="1.5"/>
+  <circle cx="200" cy="210" r="55" fill="#d4a843" opacity="0.06"/>
+  <path id="topArcC" d="M 75 200 A 125 125 0 0 1 325 200" fill="none"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1a6b6a" letter-spacing="10"><textPath href="#topArcC" startOffset="50%" text-anchor="middle">VINIR</textPath></text>
+  <text x="200" y="320" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#d4a843" letter-spacing="4">LITTLE BEES</text>
+  <path id="bottomArcC" d="M 70 215 A 140 140 0 0 0 330 215" fill="none"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#4a6b6a" letter-spacing="1.5"><textPath href="#bottomArcC" startOffset="50%" text-anchor="middle">The Friends of Little Bees</textPath></text>
+  <circle cx="90" cy="200" r="3" fill="#1a6b6a"/>
+  <circle cx="310" cy="200" r="3" fill="#1a6b6a"/>
+</svg>
