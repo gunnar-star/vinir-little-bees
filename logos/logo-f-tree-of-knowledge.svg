@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Logo F: Tree of Knowledge — A tree with book-shaped roots and bees in the canopy -->
+  <defs>
+    <linearGradient id="canopyGradF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a6b6a"/>
+      <stop offset="100%" stop-color="#1a5b5a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="200" cy="200" r="195" fill="#fafaf7"/>
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#1a6b6a" stroke-width="3"/>
+
+  <!-- Ground line -->
+  <path d="M 80 280 Q 200 290 320 280" fill="none" stroke="#1a6b6a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Book roots (open book at base of tree) -->
+  <path d="M 160 280 L 200 260 L 240 280" fill="none" stroke="#1a6b6a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 160 280 Q 180 270 200 280" fill="none" stroke="#1a6b6a" stroke-width="1.8"/>
+  <path d="M 200 280 Q 220 270 240 280" fill="none" stroke="#1a6b6a" stroke-width="1.8"/>
+  <line x1="200" y1="260" x2="200" y2="283" stroke="#1a6b6a" stroke-width="1.5"/>
+
+  <!-- Tree trunk -->
+  <rect x="194" y="170" width="12" height="92" fill="#1a6b6a" rx="3"/>
+
+  <!-- Tree canopy — layered circles -->
+  <circle cx="200" cy="140" r="55" fill="url(#canopyGradF)" opacity="0.15"/>
+  <circle cx="200" cy="140" r="55" fill="none" stroke="#1a6b6a" stroke-width="2"/>
+  <circle cx="170" cy="155" r="35" fill="url(#canopyGradF)" opacity="0.12"/>
+  <circle cx="230" cy="155" r="35" fill="url(#canopyGradF)" opacity="0.12"/>
+  <circle cx="175" cy="125" r="30" fill="url(#canopyGradF)" opacity="0.1"/>
+  <circle cx="225" cy="125" r="30" fill="url(#canopyGradF)" opacity="0.1"/>
+  <circle cx="200" cy="110" r="32" fill="url(#canopyGradF)" opacity="0.1"/>
+
+  <!-- Small bees in the canopy -->
+  <!-- Bee 1 -->
+  <ellipse cx="170" cy="120" rx="8" ry="5.5" fill="#d4a843"/>
+  <circle cx="170" cy="113" r="4" fill="#1a6b6a"/>
+  <ellipse cx="163" cy="117" rx="6" ry="4" fill="#1a6b6a" opacity="0.15" transform="rotate(-20 163 117)"/>
+  <ellipse cx="177" cy="117" rx="6" ry="4" fill="#1a6b6a" opacity="0.15" transform="rotate(20 177 117)"/>
+
+  <!-- Bee 2 -->
+  <ellipse cx="230" cy="130" rx="8" ry="5.5" fill="#d4a843"/>
+  <circle cx="230" cy="123" r="4" fill="#1a6b6a"/>
+  <ellipse cx="223" cy="127" rx="6" ry="4" fill="#1a6b6a" opacity="0.15" transform="rotate(-20 223 127)"/>
+  <ellipse cx="237" cy="127" rx="6" ry="4" fill="#1a6b6a" opacity="0.15" transform="rotate(20 237 127)"/>
+
+  <!-- Bee 3 (smaller, farther) -->
+  <ellipse cx="205" cy="100" rx="6" ry="4" fill="#d4a843" opacity="0.8"/>
+  <circle cx="205" cy="95" r="3" fill="#1a6b6a" opacity="0.8"/>
+
+  <!-- Small hearts scattered -->
+  <path d="M 150 145 C 148 141 143 141 143 145 C 143 149 150 153 150 153 C 150 153 157 149 157 145 C 157 141 152 141 150 145 Z" fill="#d4a843" opacity="0.4"/>
+  <path d="M 248 110 C 246 107 242 107 242 110 C 242 113 248 116 248 116 C 248 116 254 113 254 110 C 254 107 250 107 248 110 Z" fill="#d4a843" opacity="0.35"/>
+
+  <!-- VINIR text -->
+  <text x="200" y="320" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#1a6b6a" letter-spacing="8">VINIR</text>
+
+  <!-- LITTLE BEES text -->
+  <text x="200" y="350" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#d4a843" letter-spacing="4">LITTLE BEES</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="372" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9.5" fill="#4a6b6a" letter-spacing="1.5">The Friends of Little Bees</text>
+</svg>

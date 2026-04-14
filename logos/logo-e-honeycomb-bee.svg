@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Logo E: Honeycomb Bee — A bee centered in a hexagonal honeycomb frame -->
+  <defs>
+    <linearGradient id="goldGradE" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="100%" stop-color="#c49833"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="195" fill="#fafaf7"/>
+
+  <!-- Outer hexagon frame -->
+  <polygon points="200,30 370,98 370,302 200,370 30,302 30,98" fill="none" stroke="#1a6b6a" stroke-width="4"/>
+  <polygon points="200,48 352,110 352,290 200,352 48,290 48,110" fill="none" stroke="#1a6b6a" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Honeycomb cells background pattern (decorative) -->
+  <g opacity="0.08" stroke="#1a6b6a" stroke-width="1" fill="none">
+    <polygon points="200,80 230,97 230,131 200,148 170,131 170,97"/>
+    <polygon points="140,110 170,127 170,161 140,178 110,161 110,127"/>
+    <polygon points="260,110 290,127 290,161 260,178 230,161 230,127"/>
+    <polygon points="140,178 170,195 170,229 140,246 110,229 110,195"/>
+    <polygon points="260,178 290,195 290,229 260,246 230,229 230,195"/>
+    <polygon points="200,148 230,165 230,199 200,216 170,199 170,165"/>
+  </g>
+
+  <!-- Central bee body -->
+  <ellipse cx="200" cy="195" rx="28" ry="22" fill="url(#goldGradE)"/>
+
+  <!-- Bee stripes -->
+  <line x1="188" y1="185" x2="188" y2="205" stroke="#1a6b6a" stroke-width="2.5" opacity="0.5"/>
+  <line x1="198" y1="182" x2="198" y2="208" stroke="#1a6b6a" stroke-width="2.5" opacity="0.5"/>
+  <line x1="208" y1="183" x2="208" y2="207" stroke="#1a6b6a" stroke-width="2.5" opacity="0.5"/>
+
+  <!-- Bee head -->
+  <circle cx="200" cy="170" r="12" fill="#1a6b6a"/>
+  <!-- Bee eyes -->
+  <circle cx="195" cy="168" r="2.5" fill="#fafaf7"/>
+  <circle cx="205" cy="168" r="2.5" fill="#fafaf7"/>
+
+  <!-- Bee antennae -->
+  <path d="M 196 160 Q 185 145 178 142" fill="none" stroke="#1a6b6a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 204 160 Q 215 145 222 142" fill="none" stroke="#1a6b6a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="178" cy="142" r="3" fill="#d4a843"/>
+  <circle cx="222" cy="142" r="3" fill="#d4a843"/>
+
+  <!-- Bee wings -->
+  <ellipse cx="175" cy="185" rx="20" ry="14" fill="#1a6b6a" opacity="0.12" transform="rotate(-15 175 185)"/>
+  <ellipse cx="225" cy="185" rx="20" ry="14" fill="#1a6b6a" opacity="0.12" transform="rotate(15 225 185)"/>
+  <ellipse cx="175" cy="185" rx="20" ry="14" fill="none" stroke="#1a6b6a" stroke-width="1" opacity="0.3" transform="rotate(-15 175 185)"/>
+  <ellipse cx="225" cy="185" rx="20" ry="14" fill="none" stroke="#1a6b6a" stroke-width="1" opacity="0.3" transform="rotate(15 225 185)"/>
+
+  <!-- Small heart at bee tail -->
+  <path d="M 200 220 C 197 215 190 215 190 220 C 190 225 200 232 200 232 C 200 232 210 225 210 220 C 210 215 203 215 200 220 Z" fill="#d4a843" opacity="0.6"/>
+
+  <!-- VINIR text -->
+  <text x="200" y="280" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#1a6b6a" letter-spacing="8">VINIR</text>
+
+  <!-- LITTLE BEES text -->
+  <text x="200" y="315" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#d4a843" letter-spacing="4">LITTLE BEES</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="340" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#4a6b6a" letter-spacing="2">The Friends of Little Bees</text>
+</svg>
