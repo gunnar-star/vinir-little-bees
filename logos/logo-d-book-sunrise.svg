@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <pattern id="honeycombD" patternUnits="userSpaceOnUse" width="22" height="19.05" patternTransform="scale(1.4)">
+      <polygon points="11,0 22,5.5 22,13.55 11,19.05 0,13.55 0,5.5" fill="none" stroke="#1a6b6a" stroke-width="0.25" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="sunriseGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#d4a843" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#d4a843" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="#fafaf7"/>
+  <circle cx="200" cy="200" r="190" fill="url(#honeycombD)"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#1a6b6a" stroke-width="3.5"/>
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#1a6b6a" stroke-width="1"/>
+  <path d="M 150 225 A 50 50 0 0 1 250 225" fill="url(#sunriseGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <line x1="200" y1="168" x2="200" y2="148" stroke="#d4a843" stroke-width="2" opacity="0.5"/>
+  <line x1="170" y1="178" x2="158" y2="163" stroke="#d4a843" stroke-width="2" opacity="0.4"/>
+  <line x1="230" y1="178" x2="242" y2="163" stroke="#d4a843" stroke-width="2" opacity="0.4"/>
+  <line x1="148" y1="200" x2="133" y2="196" stroke="#d4a843" stroke-width="1.5" opacity="0.3"/>
+  <line x1="252" y1="200" x2="267" y2="196" stroke="#d4a843" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 140 245 L 140 225 Q 170 215 200 225" fill="none" stroke="#1a6b6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 260 245 L 260 225 Q 230 215 200 225" fill="none" stroke="#1a6b6a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="225" x2="200" y2="248" stroke="#1a6b6a" stroke-width="2"/>
+  <line x1="155" y1="232" x2="190" y2="228" stroke="#1a6b6a" stroke-width="0.8" opacity="0.4"/>
+  <line x1="155" y1="238" x2="190" y2="234" stroke="#1a6b6a" stroke-width="0.8" opacity="0.4"/>
+  <line x1="210" y1="228" x2="245" y2="232" stroke="#1a6b6a" stroke-width="0.8" opacity="0.4"/>
+  <line x1="210" y1="234" x2="245" y2="238" stroke="#1a6b6a" stroke-width="0.8" opacity="0.4"/>
+  <path d="M 200 225 Q 200 210 200 205" fill="none" stroke="#5a8a6a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 200 210 Q 208 205 212 196 Q 205 200 200 210" fill="#5a8a6a" opacity="0.7"/>
+  <path d="M 200 215 Q 192 210 188 201 Q 195 205 200 215" fill="#5a8a6a" opacity="0.7"/>
+  <path id="topArcD" d="M 80 195 A 120 120 0 0 1 320 195" fill="none"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1a6b6a" letter-spacing="10"><textPath href="#topArcD" startOffset="50%" text-anchor="middle">VINIR</textPath></text>
+  <text x="200" y="290" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#d4a843" letter-spacing="4">LITTLE BEES</text>
+  <path id="bottomArcD" d="M 75 210 A 135 135 0 0 0 325 210" fill="none"/>
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#4a6b6a" letter-spacing="1.5"><textPath href="#bottomArcD" startOffset="50%" text-anchor="middle">Supporting Little Bees School, Nairobi</textPath></text>
+  <circle cx="88" cy="198" r="3" fill="#1a6b6a"/>
+  <circle cx="312" cy="198" r="3" fill="#1a6b6a"/>
+</svg>
